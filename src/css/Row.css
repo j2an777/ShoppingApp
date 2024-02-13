@@ -1,0 +1,104 @@
+.RowContainer {
+    width : 100%;
+    height : auto;
+    margin : 40px 0 0 0;
+    padding : 0 100px;
+    display : flex;
+    flex-direction: column;
+    justify-content : center;
+    align-items : center;
+}
+
+.RowLength {
+    width : 100%;
+    height : auto;
+    margin : 0;
+    padding : 0;
+    display : flex;
+    justify-content : flex-start;
+    align-items : center;
+}
+
+.RowLength p {
+    color : #949494;
+}
+
+.RowBox {
+    width : 100%;
+    height : 100%;
+    display : grid;
+    grid-template-columns : repeat(4, 1fr);
+    gap: 20px;
+}
+
+.RowItem {
+    height : 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border : 1px solid #C4C3C3;
+    transition : all 0.3s ease;
+    color: #000;
+}
+
+.RowItem:hover {
+    cursor : pointer;
+    transform: translateY(-10px);
+}
+
+.RowItem img {
+    max-width: 100%;
+    height: 50%;
+    border-radius: 4px;
+    object-fit: contain;
+}
+
+.RowItem h3 {
+    margin: 10px 0 5px; 
+    font-size: 1.2em; 
+}
+
+.itemBottom {
+    width : 90%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemBottom p {
+    font-size: 1em; 
+    color: #333; 
+    font-weight: bold;
+}
+
+.goBlanket {
+    padding : 10px 15px;
+    margin-right : 10px;
+    color : #B3B3B4;
+    background-color : #fff;
+    border : 1px solid #B3B3B4;
+    border-radius : 4px;
+    z-index : 88;
+}
+
+.goBlanket:hover {
+    cursor : pointer;
+    color : #fff;
+    background-color : #777A89;
+}
+
+@media (min-width : 810px) and (max-width : 1024px) {
+    .RowBox {
+        grid-template-columns : repeat(3, 1fr);
+    }
+}
+
+@media (max-width : 809px) {
+    .RowBox {
+        grid-template-columns : repeat(2, 1fr);
+    }
+}

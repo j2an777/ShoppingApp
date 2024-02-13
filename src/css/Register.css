@@ -1,0 +1,85 @@
+.Register {
+    width : 100%;
+    height : 100vh;
+    padding : 0;
+    margin : 0;
+    display : flex;
+    justify-content : center;
+}
+
+.registerContainer {
+    position : relative;
+    top : 10%;
+    width : 40%;
+    height : 60%;
+    background-color : #fff;
+    border-radius : 10px;
+    box-shadow : 0 0px 20px rgba(0, 0, 0, 0.19);
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    padding : 20px;
+    box-sizing : border-box;
+    margin : 20px;
+    overflow : hidden;
+    z-index : 1;
+    transition : all 0.3s ease;
+}
+
+.tohomeImg {
+    width : 40%;
+    height : 40%;
+    object-align : center;
+    object-fit : contain;
+}
+
+.tohomeImg:hover {
+    cursor : pointer;
+}
+
+.rgInput {
+    width : 95%;
+    height : 40px;
+    border : 1px solid #B3B3B4;
+    outline : none;
+    padding : 0 10px;
+    margin : 10px 0;
+    border-radius : 4px;
+    transition : all 0.3s ease;
+}
+
+.rgSubmit {
+    width : 100%;
+    height : 40px;
+    border : none;
+    outline : none;
+    padding : 0 10px;
+    box-sizing : border-box;
+    margin : 10px 0;
+    border-radius : 4px;
+    background-color : #777A89;
+    color : #fff;
+    cursor : pointer;
+    font-size : 16px;
+    transition : all 0.3s ease;
+}
+
+.rgSubmit:hover {
+    background-color : #555865;
+}
+
+.toLogin {
+    display : flex;
+}
+
+.suBtn {
+    margin-left : 10px;
+    text-decoration : none;
+    color : #84868D;
+    transition : all 0.3s ease;
+}
+
+.suBtn p:hover {
+    text-decoration : underline;
+}

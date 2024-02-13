@@ -1,0 +1,179 @@
+.dtContainer {
+    display : flex;
+    align-items: center;
+    max-width: 1200px;
+    margin : 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 5px;
+}
+
+.dtImg {
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.dtImg img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.dtInfo {
+    width: 100%;
+    text-align: start;
+}
+
+.dtInfo h3 {
+    margin : 0;
+    margin-bottom: 20px;
+    color: rgb(206 202 202);
+    font-size: 25px;
+}
+
+.dtInfo h1 {
+    margin : 0;
+    margin-bottom : 40px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.dtInfo h4 {
+    margin : 0;
+    margin-bottom : 40px;
+    font-size: 35px;
+}
+
+.dtInfo p {
+    margin : 0;
+    margin-bottom : 50px;
+    color: rgb(153 149 149);
+    font-size: 20px;
+}
+
+.toBlanket {
+    display: flex;
+    align-items: center;
+}
+
+.dtInfo button {
+    padding: 15px 40px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid rgb(206 202 202);
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.dtInfo button:hover {
+    color: #fff;
+    background-color: rgb(153 149 149);
+}
+
+.dtInfo button:disabled {
+    color: #fff;
+    background-color: rgb(153 149 149);
+}
+
+.dtInfo a {
+    display : inline-block;
+    margin-left: 20px;
+    padding: 15px 40px;
+    color: #fff;
+    font-size: 14px;
+    background: rgb(206 202 202);
+    border: 1px solid rgb(206 202 202);
+    cursor: pointer;
+    transition: 0.3s all ease;
+    text-decoration: none;
+}
+
+.dtInfo a:hover{
+    color: #fff;
+    background: rgb(153 149 149);
+}
+
+@media (max-width: 576px) {
+    .dtContainer {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 990px) {
+    .dtContainer {
+      padding: 5px;
+      flex-flow: column wrap;
+    }
+  }
+  
+  @media (max-width: 560px) {
+    .dtInfo {
+      width : 85%;
+    }
+  
+    .dtInfo h3 {
+      font-size: 30px;
+    }
+  
+    .dtInfo h1 {
+      font-size: 40px;
+    }
+  
+    .dtInfo h4 {
+      font-size: 45px;
+    }
+  
+    .dtInfo p {
+      margin-bottom : 80px;
+      font-size: 20px;
+    }
+  
+    .toBlanket {
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+  
+    .toBlanket button {
+      margin-right : 30px;
+      padding: 20px 60px;
+      font-size: 17px;
+    }
+  
+    .toBlanket a {
+      padding: 20px 60px;
+      font-size: 17px;
+    }
+  
+  }
+
+  @media (max-width : 600px) {
+    .dtInfo h1 {
+        font-size: 26px;
+    }
+    .toBlanket button {
+        padding: 10px 20px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .toBlanket a {
+        padding: 10px 20px;
+        font-size: 10px;
+        text-align: center;
+    }
+  }
+  
+  @media (max-width: 630px) {
+    .dtInfo {
+      width : 80%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .dtInfo {
+      width : 50%;
+    }
+  }
