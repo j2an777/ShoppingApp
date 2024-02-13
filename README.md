@@ -1,8 +1,8 @@
 Project URL : <a href="https://j2an777.github.io/ShoppingApp">https://j2an777.github.io/ShoppingApp</a>
 ![image](https://github.com/j2an777/ShoppingApp/assets/110087099/03e6e58b-d039-4850-92cc-699d82e4165a)
-<br/>
+메인화면
 ![image](https://github.com/j2an777/ShoppingApp/assets/110087099/0f38ae20-8bcc-43b5-b36c-fdb097a68b62)
-<br/>
+메인화면(Footer까지)
 ![image](https://github.com/j2an777/ShoppingApp/assets/110087099/d797f3b9-5e4f-44de-ab38-70fdd55f864f)
 <br/>
 ![image](https://github.com/j2an777/ShoppingApp/assets/110087099/04738791-097a-4d55-ac25-070dbab326e6)
